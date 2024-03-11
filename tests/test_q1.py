@@ -5,7 +5,7 @@ from scripts.utils import get_country_mapping_dict
 
 class TestQ1(unittest.TestCase):
 
-    def test_main(self):
+    def test_csv_export(self):
         main()
         self.assertTrue(os.path.isfile('data/restaurants.csv'))
 
