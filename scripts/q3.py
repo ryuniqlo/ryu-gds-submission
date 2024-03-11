@@ -28,7 +28,9 @@ def main():
     aggregate_ratings, rating_texts = extract_ratings(restaurants_lst)
     thresholds = calculate_thresholds(aggregate_ratings, rating_texts)
 
+    print('Output for Question 3:\n')
     print(thresholds)
+    print('\n\nTask 1 Complete! Thank you for your time :)')
 
 if __name__ == "__main__":
     main()

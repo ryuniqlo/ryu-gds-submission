@@ -16,7 +16,8 @@ def extract_relevant_columns(restaurant_full_dict, country_mapping_dict):
 def main():
     restaurants_lst = get_restaurants_lst()
     processed_restaurants_lst = [extract_relevant_columns(restaurant, get_country_mapping_dict()) for restaurant in restaurants_lst]
-    pd.DataFrame(processed_restaurants_lst).to_csv('data/restaurants.csv')
+    pd.DataFrame(processed_restaurants_lst).to_csv('data/restaurants.csv', index=False)
+    print('Q1 Done! Exported csv file as data/restaurants.csv')
 
 if __name__ == "__main__":
     main()

@@ -48,6 +48,7 @@ def main():
 
     df = pd.DataFrame(april_2019_events)
     df.to_csv('data/restaurant_events.csv', index=False)
+    print('Q2 Done! Exported csv file as /data/restaurant_events.csv')
 
 
 if __name__ == "__main__":
