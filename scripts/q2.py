@@ -1,4 +1,5 @@
-from data_extraction import get_restaurants_lst, pd
+from scripts.utils import get_restaurants_lst
+import pandas as pd
 
 def extract_relevant_event_columns(restaurant, filtered_events):
     extracted_data = []

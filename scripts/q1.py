@@ -1,4 +1,5 @@
-from data_extraction import get_restaurants_lst, get_country_mapping_dict, pd
+from scripts.utils import get_restaurants_lst, get_country_mapping_dict
+import pandas as pd
 
 def extract_relevant_columns(restaurant_full_dict, country_mapping_dict):
     restaurant_simplified_dict = {
