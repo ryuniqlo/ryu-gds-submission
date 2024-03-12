@@ -34,3 +34,4 @@ python main.py
 
 ## Notes
 - Unit tests are included to ensure the correctness of the implemented functionalities. In the event that changes are made to the code, I can run these unit tests to ensure that output is still accurate and as expected.
+- Do run the code to get the output csv files for Q1 and Q2!
